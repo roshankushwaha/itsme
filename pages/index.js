@@ -71,7 +71,7 @@ export default function About() {
       }
     }, 50);
   }, []);
-
+  //something
   return (
     <div className="h-[80vh]   flex  flex-col justify-center font-spacing font-black">
       <div className="  h-[20rem] flex flex-col justify-center items-center">
