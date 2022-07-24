@@ -92,7 +92,7 @@ export default function About() {
             <a
               href="https://uttaranchaluniversity.ac.in/"
               className="text-blue-300 hover:text-red-300"
-              target="_blank"
+              rel="noopener"
             >
               {" Uttranchal University"}
             </a>
