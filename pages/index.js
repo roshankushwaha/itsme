@@ -76,7 +76,7 @@ export default function About() {
     <div className="h-[80vh]   flex  flex-col justify-center font-spacing font-black">
       <div className="  h-[20rem] flex flex-col justify-center items-center">
         <div className="pt-[20px]  ">
-          Hi! i'm{" "}
+          {"Hi! i'm "}
           <span
             className="after:w-[2px]   after:overflow-hidden after:h-[1rem] after:content-['|']  after:font-[900] after:font-xl after:animate-pulse"
             id="auto-text"
@@ -88,13 +88,13 @@ export default function About() {
           <span className="date">{age}</span>
           <span>
             {" "}
-            and I'm pursuing B.Tech in computer science from{" "}
+            {"and I'm pursuing B.Tech in computer science from "}
             <a
               href="https://uttaranchaluniversity.ac.in/"
               className="text-blue-300 hover:text-red-300"
               target="_blank"
             >
-              Uttranchal University
+              {" Uttranchal University"}
             </a>
           </span>
         </div>
