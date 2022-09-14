@@ -6,7 +6,7 @@ export default function About() {
   useEffect(() => {
     let date = document.getElementsByClassName("date")[0];
     setInterval(() => {
-      let time = diffYMDHMS(moment(), moment("9-6-2003", "D-M-YYYY"));
+      let time = diffYMDHMS(moment(), moment("23-2-2002", "D-M-YYYY"));
       let age =
         "I'm " +
         time.years +
@@ -46,7 +46,7 @@ export default function About() {
       }
       return { years, months, days, hours, minutes, seconds, mili };
     }
-    let str = ["pradeep", "coder", "student", "a proud indian"];
+    let str = ["Roshan", "Coder", "Youtuber", "Student", "a proud Indian"];
 
     let i = 0,
       j = 0;
